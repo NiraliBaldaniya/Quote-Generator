@@ -1,29 +1,29 @@
- body {
+body {
         font-family: Arial, sans-serif;
         background-color: #b1def3;
-    }
+ }
     
-    .box-text h1 {
+ .box-text h1 {
         color: #0f0f0f;
         text-align: center;
         margin-top: 10px; 
         font-size: 40px;
-    }
+ }
 
-    .box-text h2 {
+ .box-text h2 {
         color: #3d3d3d;
         text-align: center;
         margin-top: 40px;
         font-size: 18px;
-    }
+ }
 
-    #clicknextquote {
+ #clicknextquote {
         white-space: pre-wrap;
         font-size: 30px;
         font-weight: bold;
-    }
+ }
      
-    button {
+ button {
         display:inline-block;
         margin : 80px 20px 0 0;
         padding: 15px 40px;
@@ -36,11 +36,13 @@
         transition:  0.3s ease;
         width: auto;
         
-    }
-    button:hover {
+ }
+
+ button:hover {
         background-color: #3a6d8a;
-    }
-    .quote-box {
+ }
+
+ .quote-box {
         display: flex;
         background-color: rgb(148, 204, 241);
         border-radius: 10px;
@@ -50,10 +52,11 @@
         width: 80%;
         min-height: 50px;
         gap: 20px;
-    }
-    .box-text  {
+ }
+
+ .box-text  {
         text-align: left;
         margin: 0px;
         padding: 0px;
         flex: 1;
-    }
+}
